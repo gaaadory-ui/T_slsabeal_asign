@@ -38,7 +38,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     Text(
-                      'Welcome Back!',
+                      'Welcome to the Academic Affairs app',
                       style: Theme.of(context).textTheme.headlineSmall
                           ?.copyWith(
                             fontWeight: FontWeight.bold,
