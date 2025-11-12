@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
         height: double.infinity,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color.fromARGB(255, 106, 17, 203), Color(0xFF2575FC)],
+            colors: [Color.fromARGB(255, 17, 48, 203), Color(0xFF2575FC)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -31,10 +31,10 @@ class LoginPage extends StatelessWidget {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Icon(
-                      Icons.lock_outline,
-                      size: 80,
-                      color: Color(0xFF2575FC),
+                    CircleAvatar(
+                      backgroundImage:Image.asset('images/uni-icon.jpg').image ,
+                      backgroundColor: Colors.grey,
+                      radius:65,
                     ),
                     const SizedBox(height: 16),
                     Text(
